@@ -4,6 +4,7 @@
     <head> 
 
         <link rel= stylesheet type=text/css href= "./resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
 
     </head>
 
@@ -23,24 +24,30 @@
 
         <div class= main-content> 
             <div class= phone>
-                <video src="./resources/videos/excursion.mp4"></video> 
+                <video autoplay muted loop>
+
+                    <source src="./resources/videos/excursion.mp4"
+                            type="video/mp4">
+                </video>
 
             </div>
 
             <div class=guide> 
-                <p>Your personal travel guide</p>
-                <p> Excursions remembers places you like, and recommends new points of interest around you.</p>
+                <p class=travel>Your personal travel guide</p>
+                <p class=interest> Excursions remembers places you like, and recommends new points of interest around you.</p>
                 <div class=image>
                     <img src="./resources/images/camp.jpg">
                 </div>
              </div>
 
              <div class= icon>
-                 <img src= "./resources/images/phone.png"> 
+                 <img alt="camping site" src= "./resources/images/phone.png"> 
              </div>
-             <div class=coming soon> 
+             <div class=travel> 
                 <p>Coming Soon for iPhone and Android</p>
-                <p> <a href="index.html"> Download Excursion (Comgin soon!)</a></p>
+            </div>
+            <div class=link>
+                <p> <a href="index.html"> Download Excursion (Coming soon!)</a></p>
             </div>
         </div>
 
@@ -48,9 +55,8 @@
 
 
         <footer> 
+            <p> <i class="fa fa-copyright"> </i> Excursion</p>
             
-            <p> Excursion</p>
-            <i class="fa fa-copyright" aria-hidden="true"></i>
         </footer>
 
     </body>
