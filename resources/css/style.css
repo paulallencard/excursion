@@ -5,12 +5,12 @@ html{
     background-color: black; 
     color: white; 
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
     
 }
 
 .name {
     font-size: 3.1rem; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
     color: white; 
     text-align: center; 
 
@@ -19,6 +19,7 @@ html{
 .link {
     color: aquamarine; 
     text-align: center; 
+    padding: 1.5rem; 
 }
 
 .phone { 
@@ -37,9 +38,13 @@ html{
     color: gray;
 }
 
+.icon { 
+    padding-top: 1.5rem; 
+}
+
 footer { 
     text-align: right; 
     color: gray; 
-    
+
     
 }
